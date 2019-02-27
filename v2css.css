@@ -154,3 +154,18 @@ body {
 .woocommerce .product-quantity {
 	display: flex;
 }
+
+/*delete button*/
+.woocommerce a.remove {
+	background-color: #f5861f;
+	height: auto;
+	width: inherit;
+	border-radius: 0;
+	color: #fff !important;
+	padding: 9px 17px;
+	margin-top: 90%;
+}
+
+.woocommerce a.remove:hover {
+	background: #f5861f;
+}
