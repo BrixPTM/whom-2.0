@@ -102,6 +102,20 @@ body {
 
 /* cart */
 
+.woocommerce-cart-form__cart-item:hover, .woocommerce-cart-form__cart-item:hover a {
+	background-color: #000;
+	color: #fff;
+}
+
+.woocommerce-cart-form__cart-item:hover .quantity input.qty {
+	background-color: #000 !important;
+	color: #fff;
+}
+
+.woocommerce-cart-form__cart-item:hover a.remove {
+	visibility: visible;
+}
+
 .woocommerce-cart .container {
 	width: 90%;
 	max-width: 100%;
@@ -133,9 +147,8 @@ body {
 	font-size: 30px;
 	font-family: 'ITCCaslonBook';
 	line-height: 1.5 !important;
-	padding-top: 0 !important;
-	vertical-align: top !important;
 	padding-top: 30px !important;
+	vertical-align: top !important;
 }
 
 .woocommerce-cart .variation {
@@ -153,8 +166,7 @@ body {
 	color: #000;
 	font-size: 16px !important;
 	vertical-align: top !important;
-	padding-bottom: 30px;
-	padding-right: 30px;
+	height: auto;
 }
 
 .woocommerce .product-quantity {
@@ -170,8 +182,8 @@ body {
 	color: #fff !important;
 	padding: 9px 17px;
 	margin-top: 90%;
+	visibility: hidden;
 }
-
 
 #post-8 {
 	margin-top: 2.5%;
@@ -181,11 +193,10 @@ body {
 	background-color: #f5861f ;
 	border-radius: 0;
 	color: #fff !important;
-	margin: 16px 163px;
 	font-size: 22px;
 	font-family: 'Value';
-	width: 479px;
-	left: 12%;
+	width: 90%;
+	left: 1%;
 }
 
 .woocommerce a.remove:hover {
@@ -199,10 +210,24 @@ body {
 
 .woocommerce table.shop_table {
 	border: 0;
+	width: 110%;
 }
 
-.shop_table td {
+.cart-collaterals {
+	position: sticky; 
+	bottom: 28%; 
+	width: 45% !important; 
+	margin-left: 110%;
+	padding-top: 57px;
+	padding-left: 29px;
+	border-top: 8px solid #000;
+	border-bottom: 8px solid #000;
+}
+
+
+.cart-collaterals td {
 	padding-top: 10px !important;
+	text-align: right;
 }
 
 #post-8 .shipping th, #post-8 .cart-subtotal th, #post-8 .order-total th {
@@ -213,3 +238,4 @@ body {
 #post-8 td, #post-8 th, #post-8 tr {
 	border: 0 !important;
 }
+
