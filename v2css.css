@@ -1,0 +1,53 @@
+body {
+	touch-action: manipulation;
+	overflow-x: hidden;
+    width: 100%;
+}
+
+.hide,  .quantity {
+	display: none !important;
+}
+
+/* header - main and top */
+#top-header {
+	background-color: #000;
+	z-index: 21;
+	margin-left:55%;
+	top: 36px !important;
+	position: fixed;
+}
+
+#top-header a {
+	color: #fff;
+}
+
+#main-header {
+	height: 162px;
+	background: linear-gradient(180deg, rgba(0, 0, 0) 70%, rgba(53, 53, 53, 0.5) 30%);
+	top: 0 !important;
+	z-index: 19;
+	position: fixed !important;
+}
+
+#et-top-navigation {
+	float: left;
+	padding-left: 0 !important;
+}
+
+#mega-menu-wrap-primary-menu {
+	top: 10px;
+}
+
+#et-secondary-menu {
+	float: unset;
+	position: fixed;
+}
+
+.logo_container {
+	top:10px;
+	height: 110px !important;
+}
+
+.wmLax .et_pb_slide {
+	padding-top: 246px;
+}
