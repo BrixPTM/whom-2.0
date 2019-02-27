@@ -172,11 +172,16 @@ body {
 	margin-top: 90%;
 }
 
+
+#post-8 {
+	margin-top: 2.5%;
+}
+
 #post-8 .checkout-button {
 	background-color: #f5861f ;
 	border-radius: 0;
 	color: #fff !important;
-	padding: 16px 163px;
+	margin: 16px 163px;
 	font-size: 22px;
 	font-family: 'Value';
 	width: 479px;
@@ -194,4 +199,17 @@ body {
 
 .woocommerce table.shop_table {
 	border: 0;
+}
+
+.shop_table td {
+	padding-top: 10px !important;
+}
+
+#post-8 .shipping th, #post-8 .cart-subtotal th, #post-8 .order-total th {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#post-8 td, #post-8 th, #post-8 tr {
+	border: 0 !important;
 }
