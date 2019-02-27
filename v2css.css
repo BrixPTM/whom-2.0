@@ -1,20 +1,19 @@
 body {
 	touch-action: manipulation;
-	overflow-x: hidden;
-    width: 100%;
+	overflow-x: hidden !important;
 }
 
-.hide,  .quantity {
+.hide, .et-cart-info {
 	display: none !important;
 }
 
 /* header - main and top */
 #top-header {
-	background-color: #000;
+	background-color: inherit;
 	z-index: 21;
-	margin-left:55%;
+	margin-left:67%;
 	top: 36px !important;
-	position: fixed;
+	position: fixed !important;
 }
 
 #top-header a {
@@ -39,7 +38,6 @@ body {
 }
 
 #et-secondary-menu {
-	float: unset;
 	position: fixed;
 }
 
@@ -48,6 +46,109 @@ body {
 	height: 110px !important;
 }
 
+#main-header .container, #top-header .container {
+	width: 90%;
+	max-width: 90%;
+}
+/*margin for top-menu*/
+#et-secondary-nav li {
+	margin-right: 84px;
+	font-family: 'ValueBold',Helvetica,Arial,Lucida,sans-serif !important;
+}
+
+#mega-menu-primary-menu li {
+	margin-right: 70px;
+	font-family: 'ValueBold',Helvetica,Arial,Lucida,sans-serif !important;
+}
+
+/* hero image */
 .wmLax .et_pb_slide {
 	padding-top: 246px;
+}
+
+.wmLax .et_pb_container {
+	float: right;
+	left: 20%;
+}
+
+.et_pb_slide_title {
+	font-size: 138px !important;
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+.et_pb_slide_description {
+	width: 60%;
+}
+
+/* the freelancer text h1 */
+.fullCol2 .et_pb_text_10 {
+	margin-top: 22%;
+	margin-bottom: -4% !important;
+}
+
+#main-footer, .woocommerce .woocommerce-breadcrumb, .woocommerce-tabs, .wc-tabs-wrapper, .onsale, .reset_variations, .et_overlay, .archive #sidebar {
+	display: none !important;
+}
+
+.mega-sub-link {
+	left: -45%;
+}
+
+/* border bottom for table cost*/
+.border-bottom {
+	border-bottom: 1px solid black;
+}
+
+/* cart */
+
+.woocommerce-cart .container {
+	width: 90%;
+	max-width: 100%;
+}
+
+.woocommerce-cart #left-area {
+	width: 70% !important;
+}
+
+/* cart image */
+#post-8 {
+	width: 90%;
+}
+
+.woocommerce-cart table.cart img {
+	width: 100%;
+	height: 156px;
+}
+
+.woocommerce-cart .product-thumbnail {
+	width: 35%;
+}
+
+.woocommerce-cart .product-name {
+	font-size: 30px;
+	font-family: 'ITCCaslonBook';
+}
+
+.woocommerce-cart .variation {
+	font-size: 16px;
+	font-family: 'FilsonProBook';
+}
+
+.woocommerce-cart .product-price, .woocommerce-cart .product-subtotal {
+	vertical-align: top !important;
+	padding-top: 30px !important;
+}
+
+.woocommerce .quantity input.qty {
+	background-color: #fff !important;
+	color: #000;
+	font-size: 16px !important;
+	vertical-align: top !important;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+.woocommerce .product-quantity {
+	display: flex;
 }
