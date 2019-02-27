@@ -121,6 +121,10 @@ body {
 	height: 156px;
 }
 
+.woocommerce-cart td {
+	padding: 35px 22px !important;
+}
+
 .woocommerce-cart .product-thumbnail {
 	width: 35%;
 }
@@ -130,6 +134,8 @@ body {
 	font-family: 'ITCCaslonBook';
 	line-height: 1.5 !important;
 	padding-top: 0 !important;
+	vertical-align: top !important;
+	padding-top: 30px !important;
 }
 
 .woocommerce-cart .variation {
@@ -156,7 +162,7 @@ body {
 }
 
 /*delete button*/
-.woocommerce a.remove {
+.woocommerce a.remove  {
 	background-color: #f5861f;
 	height: auto;
 	width: inherit;
@@ -166,6 +172,26 @@ body {
 	margin-top: 90%;
 }
 
+#post-8 .checkout-button {
+	background-color: #f5861f ;
+	border-radius: 0;
+	color: #fff !important;
+	padding: 16px 163px;
+	font-size: 22px;
+	font-family: 'Value';
+	width: 479px;
+	left: 12%;
+}
+
 .woocommerce a.remove:hover {
 	background: #f5861f;
+}
+
+.woocommerce-cart .entry-title, .woocommerce-cart h2 {
+	font-family: 'ITCCaslonBook';
+	font-size: 49px;
+}
+
+.woocommerce table.shop_table {
+	border: 0;
 }
