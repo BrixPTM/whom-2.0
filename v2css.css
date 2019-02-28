@@ -190,13 +190,14 @@ body {
 }
 
 #post-8 .checkout-button {
-	background-color: #f5861f ;
+	background-color: #f5861f !important;
 	border-radius: 0;
 	color: #fff !important;
 	font-size: 22px;
 	font-family: 'Value';
 	width: 90%;
-	left: 1%;
+	left: 1.6%;
+	top: 65px;
 }
 
 .woocommerce a.remove:hover {
@@ -215,7 +216,7 @@ body {
 
 .cart-collaterals {
 	position: sticky; 
-	bottom: 28%; 
+	bottom: 15%; 
 	width: 45% !important; 
 	margin-left: 110%;
 	padding-top: 57px;
@@ -239,3 +240,29 @@ body {
 	border: 0 !important;
 }
 
+/* coupon */
+#coupon_code {
+	height: 61px;
+	font-size: 22px;
+	padding-left: 16px;
+	font-family: 'Value';
+	background-color: gray;
+	color: #fafafc;
+}
+
+#coupon_code::placeholder {
+	color: #fafafc;
+}
+.coupon .button {
+	height: 61px;
+	color: #fff !important;
+	background: #000 !important;
+	font-family: 'Value';
+	font-size: 22px;
+	padding-left: 59px !important;
+	padding-right: 59px !important;
+}
+
+.coupon .button:hover {
+	color: #fff !important;
+}
