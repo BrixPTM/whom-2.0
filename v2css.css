@@ -22,10 +22,14 @@ body {
 
 #main-header {
 	height: 162px;
-	background: linear-gradient(180deg, rgba(0, 0, 0) 70%, rgba(53, 53, 53, 0.5) 30%);
+	background: transparent;
 	top: 0 !important;
 	z-index: 19;
 	position: fixed !important;
+}
+
+#logo {
+	max-height: 85%;
 }
 
 #et-top-navigation {
@@ -81,10 +85,19 @@ body {
 	width: 60%;
 }
 
+.et_pb_slide_0.et_pb_slide .et_pb_button {
+	background: rgb(244,86,94) !important;
+background: -moz-linear-gradient(128deg, rgba(244,86,94,1) 23%, rgba(241,88,74,1) 59%, rgba(238,89,54,1) 98%) !important;
+background: -webkit-linear-gradient(128deg, rgba(244,86,94,1) 23%, rgba(241,88,74,1) 59%, rgba(238,89,54,1) 98%) !important;
+background: linear-gradient(128deg, rgba(244,86,94,1) 23%, rgba(241,88,74,1) 59%, rgba(238,89,54,1) 98%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4565e",endColorstr="#ee5936",GradientType=1);
+}
+
+
 /* the freelancer text h1 */
 .fullCol2 .et_pb_text_10 {
 	margin-top: 22%;
-	margin-bottom: -4% !important;
+	margin-bottom: -4.5% !important;
 }
 
 #main-footer, .woocommerce .woocommerce-breadcrumb, .woocommerce-tabs, .wc-tabs-wrapper, .onsale, .reset_variations, .et_overlay, .archive #sidebar {
@@ -94,6 +107,16 @@ body {
 .mega-sub-link {
 	left: -45%;
 }
+
+.gradientBG {
+	background: rgb(216,207,195);
+background: -moz-linear-gradient(232deg, rgba(216,207,195,1) 23%, rgba(248,245,229,1) 71%, rgba(201,188,171,1) 88%);
+background: -webkit-linear-gradient(232deg, rgba(216,207,195,1) 23%, rgba(248,245,229,1) 71%, rgba(201,188,171,1) 88%);
+background: linear-gradient(232deg, rgba(216,207,195,1) 23%, rgba(248,245,229,1) 71%, rgba(201,188,171,1) 88%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8cfc3",endColorstr="#c9bcab",GradientType=1);
+
+}
+
 
 /* border bottom for table cost*/
 .border-bottom {
@@ -261,8 +284,16 @@ body {
 	font-size: 22px;
 	padding-left: 59px !important;
 	padding-right: 59px !important;
+	bottom: 1px;
+	right: 2%;
 }
 
 .coupon .button:hover {
 	color: #fff !important;
 }
+
+.actions button {
+	background: #000;
+}
+
+/* end cart page*/
